@@ -1,0 +1,24 @@
+{
+  "name": "webpack-my-cheatsheet-ja",
+  "version": "1.0.0",
+  "description": "## npm init -y",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aocattleya/webpack-my-cheatsheet-ja.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aocattleya/webpack-my-cheatsheet-ja/issues"
+  },
+  "homepage": "https://github.com/aocattleya/webpack-my-cheatsheet-ja#readme",
+  "devDependencies": {
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
+  }
+}
