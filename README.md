@@ -74,5 +74,24 @@ module.exports = {
     path: outputPath
   }
 };
+```
 
+## npm info webpack-dev-server
+
+## npm install --save-dev webpack-dev-server@3.9.0
+
+## npx webpack-dev-server
+
+webpackでの立ち上げ
+
+## npx webpack-dev-server --open
+
+デフォルトでブラウザを立ち上げる。
+
+## ブラウザでデフォルトでindex,htmlを表示
+
+```
+devServer: {
+  contentBase: outputPath
+}
 ```
