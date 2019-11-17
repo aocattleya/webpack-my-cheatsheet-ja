@@ -23,7 +23,7 @@ webpackの環境が整う。
 
 ## npm info live-server
 
-自動でブラウザ表示出来て便利なのでインストール
+自動でブラウザ表示できて便利なのでインストール
 
 ## live-server@1.2.1
 
@@ -36,3 +36,43 @@ or
 ## https://unpkg.com/
 
 cdnサイト
+
+## npm info lodash
+
+最新のバージョンを確認
+
+## npm install --save lodash@4.17.15
+
+インストール
+
+## npx webpack
+
+webpackの利用
+
+## npx npx webpack --config webpack.config.js
+
+指定して利用
+
+## npx npx webpack --mode development
+
+WARNINGが出ているのでモードを指定
+
+### 解説
+
+```webpack.config.js
+const path = require("path");
+// 絶対パス
+const outputPath = path.resolve(__dirname, "dist");
+
+module.exports = {
+  // index.jsを取り込む
+  entry: "./src/index.js",
+  output: {
+    // index.jsに依存しているライブラリをくっ付けて出力する
+    // ここではlodash
+    filename: "main.js",
+    path: outputPath
+  }
+};
+
+```
