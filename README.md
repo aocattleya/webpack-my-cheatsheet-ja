@@ -95,3 +95,13 @@ devServer: {
   contentBase: outputPath
 }
 ```
+
+## npm run start
+
+立ち上げを楽にする
+
+```webpack.config.js
+"scripts": {
+  "start": "webpack-dev-server --open"
+},
+```
